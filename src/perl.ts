@@ -64,6 +64,20 @@ export const KEYWORDS: string[] = [
     "le",
     "qr",
     "y",
+    // Moose and Moose::Role:
+    "extends",
+    "with",
+    "has",
+    "before",
+    "after",
+    "around",
+    "super",
+    "override",
+    "inner",
+    "augment",
+    "confess",
+    "blessed",
+    "meta",
 ];
 
 export const FUNCTIONS: string[] = [
@@ -302,6 +316,23 @@ export const FUNCTIONS: string[] = [
     "each",
     "lcfirst",
     "setnetent",
+    // Moose::Util::TypeConstraints:
+    "type",
+    "subtype",
+    "class_type",
+    "role_type",
+    "maybe_type",
+    "duck_type",
+    "as",
+    "where",
+    "message",
+    "inline_as",
+    "coerce",
+    "from",
+    "via",
+    "enum",
+    "find_type_constraint",
+    "register_type_constraint",
 ];
 
 export const VARIABLES: string[] = [
